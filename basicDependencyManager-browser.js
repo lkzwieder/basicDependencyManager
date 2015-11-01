@@ -2,7 +2,7 @@ var DependencyManager = function(arr, config) {
    "use strict";
    var queue = {};
    var executed = [];
-   var data = {};
+   var data = [];
    config = config || {};
 
    var _addCode = function(url, name, deps, pos) {
@@ -41,9 +41,11 @@ var DependencyManager = function(arr, config) {
    };
 
    var _execute = function(url, name, pos) {
-      data[name] = {};
-      data[name].url = url;
-      data[name].pos = pos;
+      var d = {};
+      d.name = name;
+      d.url = url;
+      d.pos = pos;
+      data.push(d);
       if(executed.indexOf(name) == -1) executed.push(name);
       _wasDependency(name);
    };

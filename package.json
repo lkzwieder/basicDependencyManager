@@ -1,0 +1,29 @@
+{
+  "name": "basic-dependency-manager",
+  "version": "0.0.1",
+  "description": "Basic dependency manager, this tool offers the posibility to order an array taking into acount dependencies",
+  "main": "basicDependencyManager.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/manager.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lkzwieder/basicDependencyManager.git"
+  },
+  "keywords": [
+    "dependency",
+    "sort",
+    "order",
+    "manager",
+    "dependencies"
+  ],
+  "author": "Lucas Tettamanti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lkzwieder/basicDependencyManager/issues"
+  },
+  "homepage": "https://github.com/lkzwieder/basicDependencyManager"
+}
