@@ -31,7 +31,7 @@ var config = {
    }
 };
 
-var data = require("../basicDependencyManager")(arr, config);
+var data = require("basicDependencyManager")(arr, config);
 console.log(data);
 ```
 
