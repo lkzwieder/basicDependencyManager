@@ -2,6 +2,9 @@
 Basic dependency manager, this tool was made for a future basic dependency injector who serves as a base for a future
 framework. Basic dependency manager can be modified with almost no effort for any purpose.
 
+If you are looking for a dependency injector like requirejs but faster and lighter then you want to see my
+[basic dependency injector](https://www.npmjs.com/package/basic-dependency-injector)
+
 ### Installation
 ```sh
 $ npm install basic-dependency-manager
