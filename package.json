@@ -1,6 +1,6 @@
 {
   "name": "basic-dependency-manager",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Basic dependency manager, this tool offers the posibility to order an array taking into acount dependencies",
   "main": "basicDependencyManager.js",
   "directories": {
